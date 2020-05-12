@@ -291,6 +291,11 @@ a:focus {
 
 .item__content-back {
 	cursor: pointer;
+	font-size: 120%;
+}
+
+.item__content-back::before {
+	content: "⬅️";
 }
 
 @media screen and (min-width: 53em) {
