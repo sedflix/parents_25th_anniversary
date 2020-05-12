@@ -395,5 +395,5 @@ a:focus {
 }
 video::-webkit-media-controls-panel {
 	background-image: none !important;
-	filter: brightness(0.4);
+	/* filter: brightness(0.4); */
  }

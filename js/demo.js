@@ -121,6 +121,7 @@
         }
     }
 
+
     class ContentItem {
         constructor(el) {
             this.DOM = {el: el};
@@ -137,6 +138,10 @@
             this.DOM.backCtrl.addEventListener('click', (ev) => {
                 ev.preventDefault();
                 menu.closeItem()
+                document.getElementById("1vid").pause();
+                document.getElementById("2vid").pause();
+                document.getElementById("3vid").pause();
+                document.getElementById("4vid").pause();
             });
         }
         setCurrent() {
@@ -410,3 +415,5 @@
         document.body.classList.remove('loading');
     });
 }
+
+
