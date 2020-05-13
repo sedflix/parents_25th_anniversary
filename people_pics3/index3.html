@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silver Anniversary!</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Londrina+Outline' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+
+    <style>
+        .row {
+            display: flex;
+        }
+        
+        .column {
+            flex: 33.33%;
+            padding: 0.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .main {
+            position: absolute;
+            top: 15%;
+            bottom: 50%;
+        }
+        
+        #row1 {
+            width: 75%;
+            margin: auto;
+            margin-bottom: 2%;
+        }
+        
+        .img_col {
+            transition: all .3s ease-in-out;
+            /* filter: grayscale(75%); */
+            z-index: 10;
+            opacity: 0.9;
+            border: 1px solid transparent;
+            box-shadow: 0 5px 10px -1px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        .img_col:hover {
+            transform: scale(1.3);
+            filter: grayscale(-10%);
+            box-shadow: 3px 5px 10px 13px rgba(0, 0, 0, 0.1);
+            opacity: 1;
+            z-index: 100;
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg) scale(1.3);
+            }
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg) scale(1.27);
+            }
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg) scale(1.3);
+            }
+            30% {
+                transform: translate(3px, 2px) rotate(0deg) scale(1.3);
+            }
+            40% {
+                transform: translate(1px, -1px) rotate(1deg) scale(1.27);
+            }
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg) scale(1.27);
+            }
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg) scale(1.3);
+            }
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg) scale(1.3);
+            }
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg) scale(1.27);
+            }
+            90% {
+                transform: translate(1px, 2px) rotate(0deg) scale(1.3);
+            }
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg) scale(1.27);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container demo-3">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <div class="main">
+                    <div class="row" id="row1">
+                        <div class="column">
+                            <img src="../people_pics1/img/a/H_ritu.jpg" alt="Snow" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/a_taiji.jpg" alt="Forest" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/p_guria.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/p_karreni.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/Y_goyal.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="../people_pics1/img/a/a_nirja.jpg" alt="Snow" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/N_Rani.jpg" alt="Forest" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/n_babi.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/I_Rani.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/v_babli.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/E_meme.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/r_adyadav.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/S_meme.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/a_bua.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../people_pics1/img/a/y_muje_kya_path.jpg" alt="Mountains" class="img_col" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /container -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-3.js"></script>
+</body>
+
+</html>
